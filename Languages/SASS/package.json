@@ -1,0 +1,16 @@
+{
+  "name": "sass-sandbox",
+  "version": "1.0.0",
+  "description": "Understand what Sass does for you\r Sass allows you to generate css files using variables functions and inheritence.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass index.scss styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.30.0"
+  }
+}
