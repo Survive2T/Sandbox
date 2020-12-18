@@ -1,5 +1,11 @@
 $primary-color: #00916e;
+$primary-font: Arial, Helvetica, sans-serif;
 
 body {
   background-color: $primary-color;
+}
+body {
+  h1 {
+    font-family: $primary-font;
+  }
 }
