@@ -23,6 +23,7 @@
 
 - Modularize and re-use CSS
   %style-border{
+  background-color: #FFCF00;
   border: 1px solid black;
   padding: 16px;
   }

@@ -1,11 +1,20 @@
 $primary-color: #00916e;
+$secondary-color: #ffcf00;
 $primary-font: Arial, Helvetica, sans-serif;
+
+%style-border {
+  background-color: #ffcf00;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 16px;
+}
 
 body {
   background-color: $primary-color;
 }
 body {
   h1 {
+    @extend %style-border;
     font-family: $primary-font;
   }
 }
