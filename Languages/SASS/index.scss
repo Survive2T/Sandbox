@@ -20,12 +20,21 @@ $primary-font: Arial, Helvetica, sans-serif;
   @extend %style-text;
 }
 
+@mixin CreateContainer($prop-border, $prop-font) {
+  @extend %style-container;
+  border-width: $prop-border;
+  font-size: $prop-font;
+}
+
 body {
   background-color: $primary-font-color;
 }
 
 body {
   h1 {
+    @include CreateContainer(10px, large);
+  }
+  p {
     @extend %style-container;
   }
 }
