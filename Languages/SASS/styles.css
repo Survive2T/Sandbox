@@ -1,16 +1,17 @@
 body h1 {
+  border: 2px solid #00916e;
   background-color: #ffcf00;
   border-radius: 5px;
-  border: 1px solid black;
   padding: 16px;
-}
-
-body {
-  background-color: #00916e;
 }
 
 body h1 {
   font-family: Arial, Helvetica, sans-serif;
+  color: #353535;
+}
+
+body {
+  background-color: #353535;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,20 +1,31 @@
 $primary-color: #00916e;
 $secondary-color: #ffcf00;
+$tertiary-color: #fa003f;
+$primary-font-color: #353535;
+$padding-container: 16px;
 $primary-font: Arial, Helvetica, sans-serif;
 
 %style-border {
-  background-color: #ffcf00;
+  border: 2px solid $primary-color;
+  background-color: $secondary-color;
   border-radius: 5px;
-  border: 1px solid black;
-  padding: 16px;
+  padding: $padding-container;
+}
+%style-text {
+  font-family: $primary-font;
+  color: $primary-font-color;
+}
+%style-container {
+  @extend %style-border;
+  @extend %style-text;
 }
 
 body {
-  background-color: $primary-color;
+  background-color: $primary-font-color;
 }
+
 body {
   h1 {
-    @extend %style-border;
-    font-family: $primary-font;
+    @extend %style-container;
   }
 }
